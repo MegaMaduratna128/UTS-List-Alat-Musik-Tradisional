@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListYoutube"
+    android:orientation="vertical"
+    android:background="@drawable/bc7">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cara Memainkan Alat Musik Tradisional"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="28dp"/>
+
+    <Button
+        android:id="@+id/youtube1_button"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Angklung"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:onClick="openYoutube1"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/youtube2_button"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Gamelan"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:onClick="openYoutube2"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/youtube3_button"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Kecapi"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:onClick="openYoutube3"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/youtube4_button"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Tifa"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:onClick="openYoutube4"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
